@@ -1,0 +1,16 @@
+@import url("chrome://messenger/content/unifiedtoolbar/unifiedToolbarWebextensions.css");
+
+
+/* Set colour of unread in thread pane/message list */
+#threadTree tbody [data-properties~="unread"]
+{
+  background-color: #073561 !important;
+}
+
+#threadTree tbody [data-properties~="unread"] .card-container
+{
+  background-color: #345a7d !important;
+  border: 1px solid #2cbdb9 !important;
+  outline: .5px solid #2cbdb9 !important;
+}
+
